@@ -1,0 +1,23 @@
+<div id="navigation" class="navigation orange-bg">
+
+  <ul class="mdl__cntr">
+  {% for my_page in site.pages %}
+
+<!--     <li class="mdl">
+      <h4 class="mdl__h4">
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+      </h4>
+      {% if my_page.excerpt %}
+        
+      {% endif %}
+    </li> -->
+  {% endfor %}
+    <li class="mdl">
+      <a href="tel:773 809 4759">773 809 4759
+        </a></br>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </li>
+  </ul>
+
+</div>
+

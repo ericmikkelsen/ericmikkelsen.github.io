@@ -1,0 +1,53 @@
+{% if page.pgNav %}
+<ul class="pgNav">
+  <span class="pgNav__h">On This Page</span>
+	{% for link in page.pgNav %}
+	  <li><a href="#{{link.url}}">{{link.text}}</a></li>
+  	{% endfor %}
+</ul>
+{% endif %}
+<div class="art max--readable">
+
+	{{page.content}}
+	{{page.test}}
+
+	{% if page.workhistory %}
+
+		<h2 id="work-history">Work History</h2>
+		<ul class="mdl__cntr">
+		{% for workplace in page.workhistory %}
+
+			<li class="mdl mdl--borderd">
+		      <h4 class="mdl__h4">
+		      	{{workplace.heading}}
+		      </h4>
+		      <p class="mdl__dtl">
+				{{workplace.position}}
+				{% if workplace.date and workplace.position %}
+					</br>
+				{% endif %}
+				{{workplace.date}}
+		      </p>
+		      {% if workplace.body %}
+		      <p class="mdl__bdy">{{workplace.body}}</p>
+		      {% endif %}
+		    </li>
+
+		{% endfor %}
+	</ul>
+	    
+	{% endif %}
+
+	{% if page.skills %}
+
+		<h2 id="skills">Skills</h2>
+			<ul class="h-half_width_container">
+			{% for skill in page.skills %}
+			    <li>{{ skill }}</li>
+			{% endfor %}
+			</ul>
+
+	{% endif %}
+
+
+</div>
