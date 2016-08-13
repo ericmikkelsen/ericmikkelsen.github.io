@@ -101,9 +101,15 @@ p {
 a {
   color: #320;
   text-decoration: none;
-  border-bottom: 1px solid #d40;
-  border-bottom: .05rem solid #d40
-}
+  border-bottom: 1px solid #920;
+  border-bottom: .1rem solid #920;
+  transition: .25s opacity, .25s transform;
+  }
+
+a:hover{
+  opacity: .75;
+  transform: translate3d(.06125rem,0,0);
+  }
 
 ul{
   list-style-type: square;
@@ -153,7 +159,6 @@ li {
 
 .pgNav a {
   font-size: 1em;
-  text-shadow: 0 .05em 0 #fee;
   line-height: 1.5em;
   font-family: georgia, serif
 }
@@ -181,9 +186,6 @@ li {
   }
   .pgNav li {
     width: 100%
-  }
-  .navigation {
-    box-shadow: -1em -1em 3em 1em #fee
   }
 }
 
@@ -338,10 +340,6 @@ a.menu_link {
   color: #fee;
   font-family: georgia, serif;
   font-weight: 100;
-  border-bottom: 1px solid #320;
-  border-bottom: .05rem solid #320;
-  text-decoration: none;
-  text-shadow: 0 .05em 0 #d40
 }
 
 a.printContact {

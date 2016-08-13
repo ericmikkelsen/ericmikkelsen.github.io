@@ -1,16 +1,21 @@
 <div id="navigation" class="navigation orange-bg">
 
   <ul class="mdl__cntr">
-  {% for my_page in site.pages %}
+  {% for page in site.pages %}
 
-<!--     <li class="mdl">
+<li class="mdl">
+    {% if page.permalink == '/' %}
+      {% continue %}
+    {% endif %}
+
       <h4 class="mdl__h4">
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </h4>
-      {% if my_page.excerpt %}
-        
+      {% if page.excerpt %}
+        {{page.excerpt}}
       {% endif %}
-    </li> -->
+    </li>
+
   {% endfor %}
     <li class="mdl">
       <a href="tel:773 809 4759">773 809 4759
@@ -20,4 +25,3 @@
   </ul>
 
 </div>
-
