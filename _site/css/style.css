@@ -206,16 +206,19 @@ li {
 
 .mdl--borderd {
   padding: 0 0 0 1.45em;
-  border-left: .25em solid #920
+  border-left: .25em solid #320;
+  box-shadow: inset .2em 0 #fee, inset .3em 0 #920;
 }
 
 @media screen and (max-width:32em) {
   .mdl--borderd {
     padding: 0;
-    border-left: 0
+    border-left: 0;
+    box-shadow: none;
   }
   .mdl--borderd+.mdl--borderd {
-    border-top: .25em solid #920;
+    border-top: .25em solid #320;
+    box-shadow: inset 0 .2em #fee, inset 0 .3em #920;
     padding-top: 1.45em
   }
 }
@@ -281,11 +284,12 @@ a.menu_link {
   padding: 1.125rem 0 .325rem;
   font-family: georgia, serif;
   font-weight: 100;
-  text-decoration: none
+  text-decoration: none;
+  border-bottom: .25rem solid #320;
+  box-shadow: 0 .2rem #d40, 0 .3rem #920;
 }
 
 a.logo {
-  border-bottom: .25rem solid #920;
   font-size:1em;
   line-height: 1.5em;
   letter-spacing: .05em;
@@ -294,7 +298,6 @@ a.logo {
 }
 
 a.menu_link {
-  border-bottom: .25rem solid #920;
   font-size: .9375em;
   line-height: 1.6em;
   min-width: 20%;
