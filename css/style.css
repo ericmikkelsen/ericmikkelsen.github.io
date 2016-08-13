@@ -276,7 +276,6 @@ a.logo {
 
 a.logo,
 a.menu_link {
-  background-image: linear-gradient(transparent 99%, #333 1%);
   color: #fee;
   display: inline-block;
   padding: 1.125rem 0 .325rem;
@@ -286,19 +285,18 @@ a.menu_link {
 }
 
 a.logo {
-  border-bottom: .05rem solid #320;
-  line-height: 30;
-  line-height: 1.5rem;
+  border-bottom: .25rem solid #920;
+  font-size:1em;
+  line-height: 1.5em;
   letter-spacing: .05em;
   margin-right: 5%;
   width: 75%
 }
 
 a.menu_link {
-  border-bottom: .05rem solid #320;
-  font-size: .875em;
-  line-height: 30px;
-  line-height: 1.5rem;
+  border-bottom: .25rem solid #920;
+  font-size: .9375em;
+  line-height: 1.6em;
   min-width: 20%;
   text-align: right;
   vertical-align: bottom
