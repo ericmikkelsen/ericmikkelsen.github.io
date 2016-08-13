@@ -2,7 +2,7 @@
 layout: page
 title: Resume
 permalink: /resume
-excerpt: Am I proficient in CSS 3 or HTML 5? Find out answers to these questions and more on my resume!
+excerpt: Am I proficient in CSS 3 or HTML 5? Where did I work? Find out answers to these questions and more on my resume!
 workhistory:
  - heading: Mightybytes
    position: Web Developer
