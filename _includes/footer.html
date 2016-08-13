@@ -9,7 +9,7 @@
     {% endif %}
 
       <h4 class="mdl__h4">
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       </h4>
       {% if page.excerpt %}
         {{page.excerpt}}

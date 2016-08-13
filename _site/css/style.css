@@ -107,8 +107,8 @@ a {
   }
 
 a:hover{
-  opacity: .75;
-  transform: translate3d(.06125rem,0,0);
+  opacity: .5;
+  transform: translate3d(.25rem,0,0);
   }
 
 ul{
