@@ -1,6 +1,7 @@
 body,
 html {
-  padding: 0
+  padding: 0;
+  font-weight:200;
 }
 
 li{
@@ -108,7 +109,7 @@ a {
 
 a:hover{
   opacity: .5;
-  transform: translate3d(.25rem,0,0);
+  transform: translate3d(.125rem,0,0);
   }
 
 ul{
@@ -202,7 +203,7 @@ li {
 }
 
 .mdl {
-  display: block;
+  display: inline-block;
   margin: 0 0 1.5em
 }
 
@@ -351,9 +352,16 @@ a.printContact {
 }
 
 @media print {
+  body{
+    font-size:16px;}
   .hdr {
     box-shadow: none
   }
+  html body *{
+    border:none !important;
+    box-shadow:none !important;
+    }
+
   .navigation,
   .pgNav,
   a.menu_link {
