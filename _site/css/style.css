@@ -31,7 +31,8 @@ ul {
 }
 
 html {
-  font-size: 1.25em
+  font-size: 1.25em;
+  font-size: calc( 1em + .62vw );
 }
 
 body {
