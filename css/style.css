@@ -67,15 +67,15 @@ h2,.h2{
   }
 
 h3,.h3{
-  font-size: 2.34375em;
-  line-height: 1.28;
-  margin-bottom: .64em;
-  }
-
-h4,.h4{
   font-size: 1.3375em;
   line-height: 1.1214953271;
   margin-bottom: 1.1214953271em;
+  }
+
+h4,.h4{
+  font-size: 1.28em;
+  line-height: 1.171875;
+  margin-bottom: 1.171875em;
   }
 
 h5,.h5{
@@ -106,7 +106,7 @@ a {
 
 ul{
   list-style-type: square;
-  padding: 1.5em 0 0 1.6em;
+  padding: 0 0 0 1.6em;
   }
 
 .h-half_width_container {
@@ -194,8 +194,8 @@ li {
 }
 
 .mdl__cntr {
-  margin: 0;
-  padding: 1.5em 0 0;
+  margin: 0 0 3em;
+  padding: 0;
 }
 
 .mdl {
@@ -205,7 +205,7 @@ li {
 
 .mdl--borderd {
   padding: 0 0 0 1.45em;
-  border-left: .05em solid #320
+  border-left: .25em solid #920
 }
 
 @media screen and (max-width:32em) {
@@ -214,8 +214,7 @@ li {
     border-left: 0
   }
   .mdl--borderd+.mdl--borderd {
-    border-top: 1px solid #320;
-    border-top: .05rem solid #320;
+    border-top: .25em solid #920;
     padding-top: 1.45em
   }
 }
