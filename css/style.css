@@ -375,13 +375,10 @@ a.printContact {
 }
 
 @media print {
-  body{
-    font-size:14px;}
-
   html body *{
     border:none !important;
     box-shadow:none !important;
-    font-size:12px;g
+    font-size:14px;
     }
 
   .navigation,
