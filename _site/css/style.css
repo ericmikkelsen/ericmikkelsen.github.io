@@ -32,7 +32,7 @@ ul {
 
 html {
   font-size: 1.25em;
-  font-size: calc( 1em + .62vw );
+  font-size: calc( 1em + .625vw );
 }
 
 body {
@@ -43,6 +43,16 @@ body {
 .hdr,
 .orange-bg {
   background-color: #d40
+}
+
+.hdr[style*='background-image:']{
+  background-size: 100% auto;
+  background-size: cover;
+  color:#fee;
+}
+
+.hdr[style*='background-image:'] .h1{
+  color:inherit;
 }
 
 h1,.h1,
@@ -108,9 +118,10 @@ a {
   transition: .25s opacity, .25s transform;
   }
 
-a:hover{
+a:hover,
+a:focus{
   opacity: .5;
-  transform: translate3d(.125rem,0,0);
+  transform: translateY(-.09375rem);
   }
 
 ul{
@@ -273,10 +284,6 @@ a.logo {
   padding: 3em 0 1.5em
 }
 
-.hdr a {
-  text-shadow: 0 .05em 0 #d40
-}
-
 .hdr__nv {
   padding: 0 5%
 }
@@ -291,6 +298,12 @@ a.menu_link {
   text-decoration: none;
   border-bottom: .25rem solid #320;
   box-shadow: 0 .2rem #d40, 0 .3rem #920;
+}
+
+.hdr[style*="background-image:"] a.logo,
+.hdr[style*="background-image:"] a.menu_link {
+  box-shadow: none;
+  border-bottom: .25rem solid #920;
 }
 
 a.logo {
@@ -326,10 +339,6 @@ a.menu_link {
   .art p{
     text-align: justify;
   }
-}
-
-.art a {
-  text-shadow: 0 .05em 0 #fee
 }
 
 .navigation {
