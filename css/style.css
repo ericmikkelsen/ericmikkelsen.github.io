@@ -48,7 +48,7 @@ body {
 }
 
 @media print{
-  .hdr {
+  .hdr.hdr {
     box-shadow: none;
     padding: 0 5%;
   }
@@ -345,7 +345,7 @@ a.menu_link {
 }
 
 @media print{
-  .art{ padding: 0 5%; }
+  .art.art{ padding: 0 5%; }
 }
 
 @media screen and (min-width:38em){
