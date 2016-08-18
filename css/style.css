@@ -48,7 +48,7 @@ body {
 }
 
 @media print{
-  .hdr.hdr {
+  .hdr.hdr{
     box-shadow: none;
     padding: 0 5%;
   }
