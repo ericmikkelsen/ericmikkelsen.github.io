@@ -47,6 +47,13 @@ body {
   background-color: #d40
 }
 
+@media print{
+  .hdr {
+    box-shadow: none;
+    padding: 0 5%;
+  }
+}
+
 .hdr[style*='background-image:']{
   background-size: 100% auto;
   background-size: cover;
@@ -337,6 +344,10 @@ a.menu_link {
   padding: 1.5em 5% 4.5em;
 }
 
+@media print{
+  .art{ padding: 0 5%; }
+}
+
 @media screen and (min-width:38em){
   .art p{
     text-align: justify;
@@ -365,14 +376,12 @@ a.printContact {
 
 @media print {
   body{
-    font-size:16px;}
-  .hdr {
-    box-shadow: none
-  }
+    font-size:14px;}
+
   html body *{
     border:none !important;
     box-shadow:none !important;
-    font-size:12px;
+    font-size:12px;g
     }
 
   .navigation,
