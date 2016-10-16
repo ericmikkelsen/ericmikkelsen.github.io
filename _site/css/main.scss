@@ -4,8 +4,6 @@ html {
   font-weight:200;
 }
 
-
-
 li{
   font-weight: 100;
   line-height: 1.5rem;
@@ -45,13 +43,6 @@ body {
 .hdr,
 .orange-bg {
   background-color: #d40
-}
-
-@media print{
-  .hdr.hdr{
-    box-shadow: none;
-    padding: 0;
-  }
 }
 
 .hdr[style*='background-image:']{
@@ -148,7 +139,7 @@ ul{
 }
 
 li {
-  color: #320;
+  color: #302;
   font-family: helvetica, arial, sans-serif, sans, droid-sans;
   padding: 0
 }
@@ -344,10 +335,6 @@ a.menu_link {
   padding: 1.5em 5% 4.5em;
 }
 
-@media print{
-  .art.art{ padding: 0 5%; }
-}
-
 @media screen and (min-width:38em){
   .art p{
     text-align: justify;
@@ -375,10 +362,14 @@ a.printContact {
 }
 
 @media print {
+  body{
+    font-size:16px;}
+  .hdr {
+    box-shadow: none
+  }
   html body *{
     border:none !important;
     box-shadow:none !important;
-    font-size:14px;
     }
 
   .navigation,
