@@ -1,2 +1,2 @@
 source 'https://rubygems.org'
-gems: ['jekyll-github-metadata','github-pages']
+gem 'github-pages', group: :jekyll_plugins
