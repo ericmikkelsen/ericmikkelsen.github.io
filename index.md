@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: I’m a Chicago based web designer and developer.
 permalink: /
 ---
