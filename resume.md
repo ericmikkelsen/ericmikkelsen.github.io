@@ -6,7 +6,7 @@ excerpt: Am I proficient in CSS 3 or HTML 5? Where did I work? Find out answers 
 workhistory:
  - heading: Mightybytes
    position: Web Developer
-   date: June 2015 - Present
+   date: June 2015 - November 2016
    body: At Mightybytes I do much of what I did at the Tribune, working with wordpress etc. But here I was taught and use a variety of new and standard best practices such as tooling with Gulp, version control with Git, LESS preprocessors, Templating through Twig.
  - heading: Tribune Online Content
    position: Web Developer
