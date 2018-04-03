@@ -10,7 +10,7 @@ I made a few twists and turns in college, as people do, from Graphic Designer to
 Design in the browser, play with type, worry constantly about performance, think about the critical rendering path, and make websites that are crazy fast.
 
 ### I can be . . .
-Your web designer, frontend developer, PHP backend developer, css expert, only person who cares about Opera Mini, or design maintainer, or html prep chef. 
+Your web designer, frontend developer, PHP backend developer, CSS expert, HTML prep chef, SVG guru, or only person who cares about Opera Mini.
 
 ### For fun I . . .
 Make pizza, walk a pug named Spock, and bike all over.
