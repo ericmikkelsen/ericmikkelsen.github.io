@@ -11,7 +11,7 @@ workhistory:
  - heading: Mightybytes
    position: Web Developer
    date: June 2015 - November 2016
-   body: At Mightybytes, built websites in Wordpress, HTML, CSS, Javascript, PHP. I was learned best practices such as tooling with Gulp, version control with Git, LESS preprocessors, and templating through Twig.
+   body: At Mightybytes, built websites in Wordpress, HTML, CSS, Javascript, PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS preprocessors, and templating through Twig.
  - heading: Tribune Online Content
    position: Web Developer
    date: August 2014 - June 2015
