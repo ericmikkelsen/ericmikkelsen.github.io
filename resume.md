@@ -7,15 +7,15 @@ workhistory:
  - heading: Sprout Social
    position: Web Engineer
    date: January 2017 - Present
-   body: Sprout Social’s marketing site is my main concern. I do regular marketing site stuff (Wordpress dev, content updates, page speed monitoring, etc.), but I spend much of my time focusing on accessibility and performance. It was the marketing development team's initiative to get the site to 508 compliance and almost to WCAG AA. At Sprout Social I also spend time working in Node, dabbling in React, and contributing to build systems.
+   body: Sprout Social’s marketing site is my main concern. I do regular marketing site stuff (Wordpress dev, content updates, page speed monitoring, etc.) but I spend much of my time focusing on accessibility and performance. It was the marketing development team's initiative to get the site to 508 compliance and almost to WCAG AA. At Sprout Social I also spend time working in Node, dabbling in React, and contributing to build systems.
  - heading: Mightybytes
    position: Web Developer
    date: June 2015 - November 2016
-   body: At Mightybytes, built websites in Wordpress, HTML, CSS, Javascript, PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS preprocessors, and templating through Twig.
+   body: At Mightybytes, I built websites in Wordpress, HTML, CSS, Javascript, PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS preprocessors, and templating through Twig.
  - heading: Tribune Online Content
    position: Web Developer
    date: August 2014 - June 2015
-   body: At Tronc (when I worked there, it was called 435 Digital), I worked with a designer and account manager to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I specialized in making sites as performant as possible, optimizing for the critical rendering path, and making sure that css animations and transitions were super smooth.
+   body: At Tronc (when I worked there, it was called 435 Digital) I worked with a designer and account manager to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I specialized in making sites as performant as possible, optimizing for the critical rendering path, and making sure that css animations and transitions were super smooth.
  - heading: Starbucks
    position: Assistant Manager, Shift Supervisor, Barista
    date: 2002 - 2014
