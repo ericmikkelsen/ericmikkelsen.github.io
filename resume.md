@@ -7,7 +7,7 @@ workhistory:
  - heading: Sprout Social
    position: Web Engineer
    date: January 2017 - Present
-   body: Sprout Social’s marketing site is my main concern. I do regular marketing site stuff (Wordpress dev, content updates, page speed monitoring, etc.), but I spend much of my time focusing on accessibility and performance. It was the marketing development team's initiative to get the site to 508 compliance and almost to WCAG AA. While At Sprout Social I also spend time working in Node, dabbling in React, and contributing some to build systems.
+   body: Sprout Social’s marketing site is my main concern. I do regular marketing site stuff (Wordpress dev, content updates, page speed monitoring, etc.), but I spend much of my time focusing on accessibility and performance. It was the marketing development team's initiative to get the site to 508 compliance and almost to WCAG AA. At Sprout Social I also spend time working in Node, dabbling in React, and contributing to build systems.
  - heading: Mightybytes
    position: Web Developer
    date: June 2015 - November 2016
