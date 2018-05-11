@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copyDist": "cp -r ./em.com/dist ./docs"
+    "addCName": "echo \"www.ericmikkelsen.com\\nericmikkelsen.com \" > ./em.com/dist/CNAME",
+    "deploy:gh": "yarn addCName && git push origin `git subtree split --prefix em.com/dist develop`:master --force"
   },
   "keywords": [
     "Fleek"
