@@ -5,6 +5,7 @@ import chokidar from 'chokidar'
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
+  siteRoot: 'https://ericmikkelsen.com',
   getSiteData: () => ({
     title: 'React Static',
   }),

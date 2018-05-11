@@ -4,7 +4,8 @@
   "description": "Eric Mikkelsen's webiste",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyDist": "cp -r ./em.com/dist ./docs"
   },
   "keywords": [
     "Fleek"
@@ -12,6 +13,7 @@
   "author": "Eric Mikkelsen",
   "license": "ISC",
   "dependencies": {
+    "ncp": "^2.0.0",
     "react-static": "^5.9.1"
   }
 }
