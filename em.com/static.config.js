@@ -9,6 +9,7 @@ export default {
     title: 'React Static',
   }),
   preact: true,
+  siteRoot: 'https://www.ericmikkelsen.com',
   getRoutes: async () => {
     const { posts, home, resume } = await jdown('content')
     return [
