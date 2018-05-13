@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://www.ericmikkelsen.com/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 11);
@@ -273,6 +273,15 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
     'article',
     null,
     _react2.default.createElement(
+      _reactStatic.Head,
+      null,
+      _react2.default.createElement(
+        'title',
+        null,
+        page.title
+      )
+    ),
+    _react2.default.createElement(
       'header',
       null,
       _react2.default.createElement(
@@ -321,54 +330,14 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       resume.title
     ),
     _react2.default.createElement(
-      'h1',
-      { className: 'dn-s' },
-      'Eric Mikkelsen'
+      'div',
+      { className: 'header--print dn-s' },
+      _react2.default.createElement(
+        'h1',
+        null,
+        'Eric Mikkelsen'
+      )
     ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Work History'
-    ),
-    resume.workHistory.map(function (job, i) {
-      return _react2.default.createElement(
-        'section',
-        {
-          className: 'job',
-          id: job.i,
-          itemScope: true,
-          itemType: 'http://schema.org/Organization',
-          key: i
-        },
-        _react2.default.createElement(
-          'h3',
-          { itemProp: 'name' },
-          job.organization
-        ),
-        _react2.default.createElement(
-          'p',
-          { itemProp: 'jobTitle' },
-          _react2.default.createElement(
-            'strong',
-            null,
-            job.jobTitle
-          )
-        ),
-        _react2.default.createElement(
-          'time',
-          { itemProp: 'jobTitle' },
-          job.date
-        ),
-        _react2.default.createElement(
-          'p',
-          {
-            className: 'job__description',
-            itemProp: 'description'
-          },
-          job.description
-        )
-      );
-    }),
     (0, _htmr2.default)(resume.contents),
     _react2.default.createElement(
       'h2',
@@ -387,6 +356,54 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
             key: i
           },
           skill
+        );
+      })
+    ),
+    _react2.default.createElement(
+      'section',
+      { className: 'break-avoid dib' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Work History'
+      ),
+      resume.workHistory.map(function (job, i) {
+        return _react2.default.createElement(
+          'div',
+          {
+            className: 'job',
+            id: job.i,
+            itemScope: true,
+            itemType: 'http://schema.org/Organization',
+            key: i
+          },
+          _react2.default.createElement(
+            'h3',
+            { itemProp: 'name' },
+            job.organization
+          ),
+          _react2.default.createElement(
+            'p',
+            { itemProp: 'jobTitle' },
+            _react2.default.createElement(
+              'strong',
+              null,
+              job.jobTitle
+            )
+          ),
+          _react2.default.createElement(
+            'time',
+            { itemProp: 'jobTitle' },
+            job.date
+          ),
+          _react2.default.createElement(
+            'p',
+            {
+              className: 'job__description',
+              itemProp: 'description'
+            },
+            job.description
+          )
         );
       })
     )
@@ -609,6 +626,11 @@ var App = function App() {
     _react2.default.createElement(
       'main',
       null,
+      _react2.default.createElement(
+        _reactStatic.Head,
+        null,
+        _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' })
+      ),
       _react2.default.createElement(_reactStaticRoutes2.default, null),
       _react2.default.createElement(_GlobalNav2.default, null)
     )
@@ -662,7 +684,7 @@ exports.default = function () {
         _react2.default.createElement(
             'p',
             { className: 'nav__excerpt' },
-            'What are you even suppose to put on a homepage?'
+            'What are you even supposed to put on a homepage?'
         ),
         _react2.default.createElement(
             'h3',
@@ -688,6 +710,22 @@ exports.default = function () {
                 _react2.default.createElement('br', null),
                 'GE VP of EC TV & Microwave Programming'
             )
+        ),
+        _react2.default.createElement(
+            _reactStatic.Link,
+            {
+                className: 'nav__link',
+                to: 'https://www.linkedin.com/in/eric-mikkelsen-073a3315a/'
+            },
+            'LinkedIn'
+        ),
+        _react2.default.createElement(
+            _reactStatic.Link,
+            {
+                className: 'nav__link',
+                to: 'mailto:eric@ericmikkelsen.com'
+            },
+            'eric@ericmikkelsen.com'
         )
     );
 };
@@ -1566,7 +1604,7 @@ exports = module.exports = __webpack_require__(26)(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Catamaran:700);", ""]);
 
 // module
-exports.push([module.i, ":root{--mono:Consolas,\"Andale Mono WT\",\"Andale Mono\",\"Lucida Console\",\"Lucida Sans Typewriter\",\"DejaVu Sans Mono\",\"Bitstream Vera Sans Mono\",\"Liberation Mono\",\"Nimbus Mono L\",Monaco,\"Courier New\",Courier,monospace;--h:\"Catamaran\",sans-serif;margin:0;padding:0;font-size:1.25em;font-size:calc(.75em + .5vw);background:#325;font-family:var(--mono)}@media print{:root{color:#000}}main{margin:0;padding:0;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}article,header{color:#325;max-width:42em;padding:0}*{-webkit-box-sizing:border-box;box-sizing:border-box;font-weight:400;margin:0}*+:not(body){margin:1.8rem 0 0}h1,h2,h3{font-family:var(--h);letter-spacing:.01em}h1{font-size:3.2em}h1,h2{line-height:1.125}h2{font-size:1.6em}h3,p{font-size:1.125;line-height:1.6}.col-white,.link-white a,a.link-white{color:#fff}a{color:inherit;font-size:1em;letter-spacing:inherit}.nav{-ms-flex-preferred-size:18em;flex-basis:18em;background-color:#325;color:#f87;margin:0;max-width:100%;min-width:20%;-ms-flex-positive:1;flex-grow:1;-webkit-columns:18em;columns:18em;padding:4.5em 5%;padding:4.5em 5vw}.nav__link{color:#efd;font-family:var(--h)}.nav__excerpt{margin:.9rem 0;font-size:1.125em;line-height:1.6;max-width:16.2rem}article{float:left;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:22.5em;flex-basis:22.5em;margin:0;min-width:62.5%;padding:1.8em 5%;padding:1.8em 5vw;background-image:-webkit-linear-gradient(45deg,#fff,#fff 50%,#f87 0,#efd);background-image:-o-linear-gradient(45deg,#fff 0,#fff 50%,#f87 50%,#efd 100%);background-image:linear-gradient(45deg,#fff,#fff 50%,#f87 0,#efd);background-position:100% 0;background-size:30.8em 30.8em;background-repeat:no-repeat;background-color:#fff}article>*{max-width:45rem}.job{display:inline-block;vertical-align:top;width:16.2rem;min-width:45%;max-width:95%;margin-right:5%}.job>*{margin:.45rem 0 0}.job__description{margin-top:.9rem}@media print{.dn-p{display:none}}@media screen{.dn-s{display:none}}.skills{margin:0;padding:0}.skill{padding:.9rem 0;margin:0 7% 0 0;min-width:24%;display:block;float:left}", ""]);
+exports.push([module.i, ":root{--mono:Consolas,\"Andale Mono WT\",\"Andale Mono\",\"Lucida Console\",\"Lucida Sans Typewriter\",\"DejaVu Sans Mono\",\"Bitstream Vera Sans Mono\",\"Liberation Mono\",\"Nimbus Mono L\",Monaco,\"Courier New\",Courier,monospace;--h:\"Catamaran\",sans-serif;margin:0;padding:0;font-size:1.5em;font-size:calc(.75em + .75vw);background:#325;font-family:var(--mono)}@media print{:root{color:#000;font-size:12px}@page{size:landscape}}main{margin:0;padding:0;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}article,header{color:#325;max-width:42em;padding:0}@media print{article,header{max-width:none}}*{-webkit-box-sizing:border-box;box-sizing:border-box;font-weight:400;margin:0}*+*{margin:1.8rem 0 0}article,body,main{margin:0}h1,h2,h3{font-family:var(--h);letter-spacing:.01em}h1{font-size:3.2em}h1,h2{line-height:1.125}h2{font-size:1.6em}h3,p{font-size:1.125em;line-height:1.6}.col-white,.link-white a,a.link-white{color:#fff}a{color:inherit;font-size:1em;letter-spacing:inherit}.nav{-ms-flex-preferred-size:18em;flex-basis:18em;background-color:#325;color:#f87;margin:0;max-width:100%;min-width:20%;-ms-flex-positive:1;flex-grow:1;-webkit-columns:18em;columns:18em;padding:4.5em 5%;padding:4.5em 5vw}.nav__link{display:block;color:#efd;font-family:var(--h)}.nav__excerpt{margin:.9rem 0;font-size:1.125em;line-height:1.6;max-width:16.2rem}article{float:left;-ms-flex-positive:1;flex-grow:1;-ms-flex-preferred-size:22.5em;flex-basis:22.5em;margin:0;min-width:62.5%;padding:1.8em 5%;padding:1.8em 5vw;background-image:-webkit-linear-gradient(45deg,#fff,#fff 50%,#f87 0,#efd);background-image:-o-linear-gradient(45deg,#fff 0,#fff 50%,#f87 50%,#efd 100%);background-image:linear-gradient(45deg,#fff,#fff 50%,#f87 0,#efd);background-position:100% 0;background-size:30.8em 30.8em;background-repeat:no-repeat;background-color:#fff}@media print{article{-webkit-columns:2;columns:2;width:100%}}article>*{max-width:45rem}.job{display:inline-block;vertical-align:top;width:36em;min-width:45%;max-width:95%;margin-right:5%}.job>*{margin:.45rem 0 0}.job__description{margin-top:.9rem}.skills{margin-bottom:0;margin-left:0;margin-right:0;padding:0;-webkit-columns:9rem;columns:9rem;list-style:none}.skill{display:inline-block;width:100%;padding:.9rem .9rem 0 0}.header--print,.skill{margin:0}@media print{.dn-p{display:none}}@media screen{.dn-s{display:none}}.break-avoid{position:relative;-webkit-column-break-inside:avoid;break-inside:avoid}", ""]);
 
 // exports
 
@@ -1656,4 +1694,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.54606670.js.map
+//# sourceMappingURL=static.5a36286f.js.map
