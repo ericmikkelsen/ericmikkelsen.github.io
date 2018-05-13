@@ -16,10 +16,6 @@ workHistory:
    jobTitle: Web Developer
    date: August 2014 - June 2015
    description: At Tronc (when I worked there, it was called 435 Digital), I worked with designers and account managers to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I spent a bunch of time nerding out about making sites as performant as possible.
- - organization: Starbucks
-   jobTitle: Assistant Manager, Barista
-   date: 2002 - 2014
-   description: At Starbucks, my responsibilities included making schedules, cleaning, reinforcing self-esteem, recognizing team achievements, making sales goals, analyzing profit and loss statements, finding ways to drive sales, making coffee, controlling inventory, and training.
 skills:
  - Accessibility
  - BEM
@@ -36,5 +32,11 @@ skills:
  - Wordpress
 ---
 
+Phone [773.809.4759](tel:7738094759)
+
+Email [eric@ericmikkelsen.com](mailto:eric@ericmikkelsen.com)
+
 ## About Me
+
 In addition to my work history, I've delivered phonebooks, been a camp counselor, made hundreds of posters for bands, helped people move, run an internet cafe, painted desks and run cable for networks.
+

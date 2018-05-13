@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "addCName": "echo \"www.ericmikkelsen.com\\nericmikkelsen.com \" > ./em.com/dist/CNAME",
-    "deploy:gh": "yarn addCName && git push origin `git subtree split --prefix em.com/dist develop`:master --force"
+    "deploy:gh": "yarn addCName && git push origin `git subtree split --prefix em.com/dist develop`:master --force",
+    "start": "cd ./em.com && yarn start"
   },
   "keywords": [
     "Fleek"

@@ -13,7 +13,7 @@ export default( () => (
             </Link>
         </h3>
         <p className="nav__excerpt">
-            What are you even suppose to put on a homepage?
+            What are you even supposed to put on a homepage?
         </p>
 
         <h3>
@@ -32,6 +32,21 @@ export default( () => (
                 GE VP of EC TV &amp; Microwave Programming
             </small>
         </p>
+
+        <Link 
+            className="nav__link"
+            to="https://www.linkedin.com/in/eric-mikkelsen-073a3315a/"
+        >
+            LinkedIn
+        </Link>
+
+
+        <Link 
+            className="nav__link"
+            to="mailto:eric@ericmikkelsen.com"
+        >
+            eric@ericmikkelsen.com
+        </Link>
 
     </nav>
 ) );

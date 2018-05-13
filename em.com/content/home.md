@@ -4,8 +4,7 @@ title: I’m a Chicago based web designer and developer.
 permalink: /
 ---
 
-## I'm this guy
-I made a few twists and turns in college, as people do, from Graphic Designer to Animator to Web Designer to UX expert to Web Developer to Web Designer/Developer. As a result, the websites I build reflect all of these skills and sensibilities.
+I made a few twists and turns, from Barista to Graphic Designer to Web Designer/Developer. As a result, the websites I build reflect all of these skills and sensibilities.
 
 ### I love to . . .
 Design in the browser, play with type, worry constantly about performance, think about the critical rendering path, and make websites that are crazy fast.
