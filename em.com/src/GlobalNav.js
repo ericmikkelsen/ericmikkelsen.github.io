@@ -28,8 +28,8 @@ export default( () => (
             "Liz Lemon numbers among my employees"
             <br/>
             <small>
-                - John Francis Donaghy<br/>
-                GE VP of EC TV &amp; Microwave Programming
+                - Jack Donaghy<br/>
+                VP of Microwave Programming
             </small>
         </p>
 
