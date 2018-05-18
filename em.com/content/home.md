@@ -2,6 +2,9 @@
 layout: Page
 title: I’m a Chicago based web designer and developer.
 permalink: /
+breadcrumbs:
+ - text: ericmikkelsen.com
+
 ---
 
 I made a few twists and turns, from Barista to Graphic Designer to Web Designer/Developer. As a result, the websites I build reflect all of these skills and sensibilities.

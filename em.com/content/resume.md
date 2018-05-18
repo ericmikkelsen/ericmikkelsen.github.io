@@ -3,6 +3,10 @@ title: Resume
 permalink: /resume
 layout: Resume
 excerpt: Am I proficient in CSS 3 or HTML 5? Where did I work? Find out answers to these questions and more on my resume!
+breadcrumbs:
+ - url: /
+   text: ericmikkelsen.com
+ - text: resume
 workHistory:
  - organization: Sprout Social
    jobTitle: Web Engineer
