@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "addCName": "echo \"www.ericmikkelsen.com\\nericmikkelsen.com \" > ./em.com/dist/CNAME",
     "start": "cd ./em.com && yarn start",
-    "build":"cd ./em.com && yarn build && cd ../ && yarn addCName",
+    "build":"cd ./em.com && yarn build",
     "deploy:gh":"git push origin `git subtree split --prefix em.com/dist develop`:master --force"
   },
   "keywords": [
