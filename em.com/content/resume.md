@@ -11,15 +11,15 @@ workHistory:
  - organization: Sprout Social
    jobTitle: Web Engineer
    date: January 2017 - Present
-   description: Sprout Social’s marketing site is my main concern. my day consists of Wordpress devpage speed monitoring and caring too much about accessibility. It was the my team's initiative to get to 508 compliance and almost to AA. I also spend time working on build systems and in React.
+   description: Sprout Social’s marketing site is my main concern. My day consists of Wordpress dev, page speed monitoring and caring too much about accessibility. It was the my team's initiative to get the site to 508 compliance and almost to AA. I also spend time working on build systems and a little React.
  - organization: Mightybytes
    jobTitle: Web Developer
    date: June 2015 - November 2016
-   description: At Mightybytes, built websites in Wordpress, HTML, CSS, Javascript, PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS preprocessors, and templating through Twig.
- - organization: Tribune Online Content
+   description: At Mightybytes, I built websites in Wordpress, HTML, CSS, Javascript, and PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS & SCSS preprocessors, and templating through Twig.
+ - organization: Tribune Publishing
    jobTitle: Web Developer
    date: August 2014 - June 2015
-   description: At Tronc (when I worked there, it was called 435 Digital), I worked with designers and account managers to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I spent a bunch of time nerding out about making sites as performant as possible.
+   description: At Tribune Publishing, I worked with designers and account managers to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I made to sure make sites as performant as possible using critical css and constantly testing on lower end devices.
 skills:
  - Accessibility
  - BEM
@@ -29,9 +29,10 @@ skills:
  - Javascript
  - Less
  - Node
- - SSH
  - PHP
  - React
+ - SCSS
+ - SSH
  - SVG
  - Wordpress
 ---
