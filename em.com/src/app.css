@@ -196,6 +196,10 @@ article > *  {
   line-height: 1.8;
 }
 
+.dib {
+  display: inline-block;
+}
+
 @media print {
   .dn-p {
     display: none;

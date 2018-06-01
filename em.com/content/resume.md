@@ -11,7 +11,7 @@ workHistory:
  - organization: Sprout Social
    jobTitle: Web Engineer
    date: January 2017 - Present
-   description: Sprout Social’s marketing site is my main concern. My day consists of Wordpress dev, page speed monitoring and caring too much about accessibility. It was the my team's initiative to get the site to 508 compliance and almost to AA. I also spend time working on build systems and a little React.
+   description: I work on Sprout Social’s marketing site, that consists working on Wordpress, page speed monitoring, accessibility testing, Gulp build systems, and AMP work. Also My team was responsible for  getting the site to 508 compliance.
  - organization: Mightybytes
    jobTitle: Web Developer
    date: June 2015 - November 2016
@@ -19,7 +19,9 @@ workHistory:
  - organization: Tribune Publishing
    jobTitle: Web Developer
    date: August 2014 - June 2015
-   description: At Tribune Publishing, I worked with designers and account managers to build websites in Wordpress, HTML, CSS, Javascript, PHP, and SVG. I made to sure make sites as performant as possible using critical css and constantly testing on lower end devices.
+ - organization: Starbucks
+   jobTitle: Assistant Manager, Shift Supervisor, Barista
+   date: August 2002 - 2014
 skills:
  - Accessibility
  - BEM
