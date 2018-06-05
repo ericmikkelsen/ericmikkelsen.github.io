@@ -4,7 +4,7 @@ import { Link } from 'react-static'
 class WorkHistory extends React.Component {
   render() {
     return (
-        <section class="dib">
+        <section className="dib">
             <h2>Work History</h2>
                 {this.props.workHistory.map( ( job, i ) => {
                     return <div

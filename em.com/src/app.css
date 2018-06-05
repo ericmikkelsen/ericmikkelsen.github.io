@@ -28,8 +28,9 @@ main{
   flex-wrap:wrap;
   }
 header, article{
+  width: 100%;
   color: #325;
-  max-width:42em;
+  max-width: 42rem;
   padding: 0;
 }
 
@@ -142,6 +143,7 @@ article {
 
 
 article > *  {
+  width: 100%;
   max-width: 45rem;
 }
 
