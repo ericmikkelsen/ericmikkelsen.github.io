@@ -5,20 +5,20 @@ layout: Resume
 excerpt: Am I proficient in CSS 3 or HTML 5? Where did I work? Find out answers to these questions and more on my resume!
 breadcrumbs:
  - url: /
-   text: ericmikkelsen.com
+   text: home
  - text: resume
 workHistory:
  - organization: Sprout Social
    jobTitle: Web Engineer
-   date: January 2017 - Present
-   description: I work on Sprout Social’s marketing site, that consists working on Wordpress, page speed monitoring, accessibility testing, Gulp build systems, and AMP work. Also My team was responsible for  getting the site to 508 compliance.
+   date: January 2017 - June 2018
+   description: I work on Sprout Social’s marketing site, that consists working with Wordpress, Accessibility, Gulp build systems, and Google's AMP, Twig, Git, and Design Systems.
  - organization: Mightybytes
    jobTitle: Web Developer
    date: June 2015 - November 2016
    description: At Mightybytes, I built websites in Wordpress, HTML, CSS, Javascript, and PHP. I learned best practices such as tooling with Gulp, version control with Git, LESS & SCSS preprocessors, and templating through Twig.
  - organization: Tribune Publishing
    jobTitle: Web Developer
-   date: August 2014 - June 2015
+   date: January 2014 - June 2015
  - organization: Starbucks
    jobTitle: Assistant Manager, Shift Supervisor, Barista
    date: August 2002 - 2014
@@ -39,11 +39,6 @@ skills:
  - Wordpress
 ---
 
-Phone [773.809.4759](tel:7738094759)
+[eric@ericmikkelsen.com](mailto:eric@ericmikkelsen.com)
 
-Email [eric@ericmikkelsen.com](mailto:eric@ericmikkelsen.com)
-
-## About Me
-
-In addition to my work history, I've delivered phonebooks, been a camp counselor, made hundreds of posters for bands, helped people move, run an internet cafe, painted desks and run cable for networks.
-
+I'm a developer who focuses on what makes things easier for humans, whether it's accessibilty, web performance, or just being a decent human being.
