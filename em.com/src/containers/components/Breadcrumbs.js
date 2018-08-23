@@ -12,11 +12,8 @@ class Breadcrumbs extends React.Component {
                           id={ 'breadcrumb-' + i }
                           key={ 'breadcrumb-' + i }
                         >
-                        <Link 
-                          to={crumb.url}
-                        >
-                          {crumb.text}
-                        </Link>&nbsp;/&nbsp; 
+                        <Link to={crumb.url}>{crumb.text}</Link>
+                        <i> / </i>
                       </li>
               } else {
                 return <li                          

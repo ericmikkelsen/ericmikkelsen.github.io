@@ -3,7 +3,7 @@ layout: Page
 title: I’m a Bay Area based web designer and developer.
 permalink: /
 breadcrumbs:
- - text: ericmikkelsen.com
+ - text: home
 
 ---
 
