@@ -414,6 +414,15 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   return _react2.default.createElement(
     'article',
     null,
+    _react2.default.createElement(
+      _reactStatic.Head,
+      null,
+      _react2.default.createElement(
+        'title',
+        null,
+        'Resume'
+      )
+    ),
     _react2.default.createElement(_Breadcrumbs.Breadcrumbs, { breadcrumbs: resume.breadcrumbs }),
     _react2.default.createElement(
       'h1',
@@ -1817,4 +1826,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ed378048.js.map
+//# sourceMappingURL=static.8f181335.js.map
