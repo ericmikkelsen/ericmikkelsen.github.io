@@ -9,9 +9,9 @@ export default withRouteData(({ resume }) => (
   <article>
     <Breadcrumbs breadcrumbs={resume.breadcrumbs} />
 
-    <h1 id="content" className="dn-p">{resume.title}</h1>
-
     <h1 className="header--print dn-s">Eric Mikkelsen</h1>
+
+    <h1 id="content" className="dn-p">{resume.title}</h1>
 
     {convert(resume.contents)}
     <h2>Skills</h2>

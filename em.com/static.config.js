@@ -11,11 +11,11 @@ export default {
   preact: true,
   siteRoot: 'https://www.ericmikkelsen.com',
   getRoutes: async () => {
-    const { posts, home, resume } = await jdown('content')
+    const { posts, home, resume, portfolio } = await jdown('content')
     return [
       {
         path: '/',
-        component: 'src/containers/Page',
+        component: `src/containers/${home.layout||'Page'}`,
         getData: () => ({
           page: home,
         }),
@@ -28,16 +28,26 @@ export default {
         }),
       },
       {
-        path: '/blog',
-        component: 'src/containers/Blog',
+        path: '/portfolio',
+        component: 'src/containers/Archive',
         getData: () => ({
-          posts,
+          title: 'Portfolio',
+          posts: portfolio,
+          breadcrumbs: [
+            {
+              url: '/',
+              text: 'home'
+            },
+            {
+              text: 'portfolio'
+            }
+          ],
         }),
-        children: posts.map(post => ({
-          path: `/post/${post.slug}`,
-          component: 'src/containers/Post',
+        children: portfolio.map( page => ({
+          path: `/${page.permalink}`,
+          component: `src/containers/${page.layout||'Page'}`,
           getData: () => ({
-            post,
+            page,
           }),
         })),
       },

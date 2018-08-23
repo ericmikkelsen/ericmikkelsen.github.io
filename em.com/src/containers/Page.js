@@ -8,13 +8,20 @@ export default withRouteData(( {page} ) => (
 
   <article>
       <Head>
-        <meta name="theme-color" content="#325" />
         <title>{page.title}</title>
       </Head>
-      <header>
-        <Breadcrumbs breadcrumbs={page.breadcrumbs} />
-        <h1>{page.title}</h1>
-      </header>
+      <Breadcrumbs breadcrumbs={page.breadcrumbs} />
+      
+      <h1>{page.title}</h1>
+      {page.image && 
+        <img 
+          alt=''
+          aria-hidden='true'
+          className='FeaturedImage'
+          src={page.image} 
+        /> 
+      }
+
       {convert(page.contents)}
   </article>
 

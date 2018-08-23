@@ -19,17 +19,33 @@ export default( () => (
         <h3>
             <Link 
                 className="nav__link"
+                to="/portfolio"
+            >
+                Portfolio
+            </Link>
+        </h3>
+        <p className="nav__excerpt">
+            Creativity is like a friendly bird
+            <br/>
+            <small>
+                - Liz Lemon<br/>
+                Show Runner, TGS
+            </small>
+        </p>
+        <h3>
+            <Link 
+                className="nav__link"
                 to="/resume"
             >
                 Resume
             </Link>
         </h3>
         <p className="nav__excerpt">
-            "Liz Lemon numbers among my employees"
+            Liz Lemon numbers among my employees
             <br/>
             <small>
                 - Jack Donaghy<br/>
-                VP of Microwave Programming
+                VP, Microwave Programming
             </small>
         </p>
 
