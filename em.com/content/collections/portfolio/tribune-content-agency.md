@@ -4,7 +4,7 @@ image: /images/portfolio/tribune-content-agency.png
 image-featured: /images/portfolio/tribune-content-agency-featured.png
 layout: Page
 permalink: tribune-content-agency
-title: Tribune Content Agency
+title: Tribune Content Agency's Website
 breadcrumbs:
  - url: /
    text: home
