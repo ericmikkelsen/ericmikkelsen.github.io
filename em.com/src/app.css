@@ -27,12 +27,13 @@
     --f600: 600 1.5rem/1.2 var(--h);
     --f700: 600 3.2rem/1.125 var(--h);
 
+
     /* color */
     --drk-purple: #325;
     --drk-black: #333;
     --drk-pink: #700;
     --lt-pink: #f87;
-    --lt-green: #efd;
+    --lt-green: #ffd;
     --lt-white: #fff;
 
     margin: 0;
@@ -95,6 +96,12 @@ li,
   font: var(--f400);
 }
 
+.f350 {
+  font: var(--f300);
+  font-family: var(--h);
+  letter-spacing: var(--h-ls);
+}
+
 small,
 .f300 {
   font: var(--f300);
@@ -142,10 +149,10 @@ article {
   min-width: 62.5%;
   padding: var(--s300) 5%;
   padding: var(--s300) 5vw;
-  background-image: linear-gradient(45deg, var(--lt-white) 0%, var(--lt-white) 50%,var(--lt-pink) 50%,var(--lt-green) 100%);
+  /* background-image: linear-gradient(45deg, var(--lt-white) 0%, var(--lt-white) 50%,var(--lt-pink) 50%,var(--lt-green) 100%);
   background-position: right top;
   background-size: var(--s800) var(--s800);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   background-color: var(--lt-white);
 }
 
@@ -208,6 +215,24 @@ article > *  {
   margin-top: var(--s200);
 }
 
+.HeadingLink {
+  text-decoration: none;
+  border-bottom: var(--s100) solid;
+  padding-bottom: var(--s100);
+  transition: transform .25s;
+}
+.HeadingLink:hover {
+  transform: translateX( calc( -1 * var(--s100) ) );
+}
+
+.HeadingLink--withIntro::first-line {
+  background: var(--lt-green);
+  font: var(--f300);
+  font-family: var(--h);
+  line-height: 3;
+  letter-spacing: var(--h-ls);
+}
+
 .FeaturedImage {
   max-width: 100%;
   border-radius: 5vw;
@@ -261,4 +286,4 @@ article > *  {
     columns: 2;
     width: 100%;
   }
-} 
+}

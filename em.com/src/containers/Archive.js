@@ -18,10 +18,11 @@ export default withRouteData(({ breadcrumbs, posts, title }) => (
         >
 
           <Link
-            className="dib f600"
+            className="HeadingLink HeadingLink--withIntro dib f600"
             to={`/portfolio/${post.permalink}`}
           >
-            {post.title}
+            Read my notes on building
+            <br />{post.title}
           </Link>
 
           {post.excerpt && 
@@ -29,12 +30,6 @@ export default withRouteData(({ breadcrumbs, posts, title }) => (
               {post.excerpt}
             </p>
           }
-          <Link 
-              className="dib f300"
-              to={`/portfolio/${post.permalink}`}
-            >
-              Read my notes on building<br />{post.title}.
-          </Link>
         </li>
       ))}
     </ul>
