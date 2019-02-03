@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd ./em.com && yarn start",
-    "build":"cd ./em.com && yarn build",
+    "start": "cd ./em.com && npm run start",
+    "build":"cd ./em.com && npm run build",
     "deploy":"git push origin `git subtree split --prefix em.com/dist develop`:master --force"
   },
   "keywords": [
