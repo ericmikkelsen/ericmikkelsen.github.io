@@ -1,6 +1,6 @@
 ---
 layout: Page
-title: I’m a Bay Area based web designer and developer.
+title: I’m a compassionate web designer and developer.
 permalink: /
 breadcrumbs:
  - text: home
