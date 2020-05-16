@@ -26,3 +26,5 @@ fields:
   config:
     required: false
   label: Alt
+pages:
+- art/2020/bar-codes-through-windows.md
