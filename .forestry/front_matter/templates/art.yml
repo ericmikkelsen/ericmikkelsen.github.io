@@ -41,3 +41,8 @@ fields:
   config:
     required: false
   label: Alt
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
