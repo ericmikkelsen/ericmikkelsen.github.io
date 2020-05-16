@@ -41,10 +41,10 @@ fields:
   config:
     required: false
   label: Alt
-- name: name
+- name: title
   type: text
   config:
     required: false
-  label: Name
+  label: Title
 pages:
 - art/vhs-americana.md
