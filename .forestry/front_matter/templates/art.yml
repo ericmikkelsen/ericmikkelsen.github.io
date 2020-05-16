@@ -27,3 +27,8 @@ fields:
     min: 
     max: 
     step: 
+- name: alt
+  type: text
+  config:
+    required: false
+  label: Alt
