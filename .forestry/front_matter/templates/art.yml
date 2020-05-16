@@ -1,4 +1,29 @@
 ---
 label: Art
 hide_body: false
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: width
+  type: number
+  label: width
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: height
+  type: number
+  label: height
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
