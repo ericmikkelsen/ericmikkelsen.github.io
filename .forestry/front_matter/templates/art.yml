@@ -2,6 +2,11 @@
 label: Art
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: image
   type: file
   config:
@@ -41,10 +46,5 @@ fields:
   config:
     required: false
   label: Alt
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
 pages:
 - art/vhs-americana.md
