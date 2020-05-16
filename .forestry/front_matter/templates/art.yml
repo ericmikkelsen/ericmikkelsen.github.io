@@ -46,3 +46,5 @@ fields:
   config:
     required: false
   label: Name
+pages:
+- art/vhs-americana.md
