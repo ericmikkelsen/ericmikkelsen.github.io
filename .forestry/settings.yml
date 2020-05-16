@@ -3,7 +3,14 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: art
+  label: Art
+  create: all
+  match: "**/*"
+- type: heading
+  label: Art
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
