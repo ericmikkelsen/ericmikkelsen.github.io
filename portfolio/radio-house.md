@@ -2,7 +2,6 @@
 excerpt: Radio House is a React app and statically generated site I built to start practicing React and have an easy way to play local MP3s.
 image: /images/portfolio/radio-house.png
 image-featured: /images/portfolio/radio-house-featured.png
-layout: Page
 permalink: radio-house
 title: Radio House
 breadcrumbs:

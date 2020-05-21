@@ -1,5 +1,4 @@
 ---
-layout: Page
 title: I’m a compassionate web designer and developer.
 permalink: /
 breadcrumbs:

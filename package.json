@@ -4,10 +4,8 @@
   "description": "Eric Mikkelsen's webiste",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd ./em.com && npm run start",
-    "build":"cd ./em.com && npm run build",
-    "deploy":"git push origin `git subtree split --prefix em.com/dist develop`:master --force"
+    "dev": "npx eleventy --serve",
+    "build": "npx eleventy"
   },
   "keywords": [
     "Fleek"
@@ -15,6 +13,11 @@
   "author": "Eric Mikkelsen",
   "license": "ISC",
   "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "calipers": "^2.0.1",
+    "calipers-jpeg": "^2.0.0",
+    "calipers-png": "^2.0.0",
+    "calipers-svg": "^2.0.1",
     "react-static": "^5.9.1"
   }
 }

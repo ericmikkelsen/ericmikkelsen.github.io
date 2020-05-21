@@ -2,7 +2,6 @@
 excerpt: Tribune Content Agency's website was my first big project featuring a ton 1000s of posts, multiple custom post types, custom fields, custom taxonomies, and built using responsive design.
 image: /images/portfolio/tribune-content-agency.png
 image-featured: /images/portfolio/tribune-content-agency-featured.png
-layout: Page
 permalink: tribune-content-agency
 title: Tribune Content Agency's Website
 breadcrumbs:

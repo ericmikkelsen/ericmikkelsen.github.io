@@ -2,7 +2,6 @@
 excerpt: Adapt is Sprout Social's new "Big Thinking" blog, that required a fork of our pattern library, and was my first project built from scratch using tachyons, a utility class library.
 image: /images/portfolio/adapt.png
 image-featured: /images/portfolio/adapt-featured.png
-layout: Page
 permalink: adapt
 title: Adapt by Sprout Social
 breadcrumbs:
