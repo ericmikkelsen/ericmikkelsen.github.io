@@ -1,8 +1,8 @@
 const card = (postData, h_level = 3) => {
     return `
-        <h${h_level} style="font-size: 3ex; line-height: 3ex; margin: 1ex 0">
-            ${postData.title}
-        </h${h_level}>
+    <!-- <h${h_level} style="font-size: 3ex; line-height: 3ex; margin: 1ex 0">
+        ${postData.title}
+    </h${h_level}> -->
         <img 
             height="${postData.image.height}"
             src="${postData.image.src}" 
@@ -27,11 +27,11 @@ module.exports = async function({collections}) {
         
 
         return posts.reduce((previousValue, post) => {
-            const size = 25;
+            const size = 37.5;
             const li_css = `
                 width: ${post.data.image.ratios.xy * size }ex;
                 flex-grow: ${post.data.image.ratios.xy / 2 * size };
-                margin: 4ex 1ex;
+                margin: 1.5vw;
                 padding: 0;
                 list-style: none;
                 display: inline-block;
@@ -40,7 +40,7 @@ module.exports = async function({collections}) {
 
             return previousValue + `<li style="${li_css}" id="${post.data.page.fileSlug}">`+card(post.data)+'</li>'
 
-        },'<ul style="display: flex; flex-wrap: wrap; padding: 0 1ex; margin:0;">') + '</ul>'
+        },'<ul style="display: flex; flex-wrap: wrap; padding: 1.5vw; margin:0;">') + '</ul>'
     })
 
 };
